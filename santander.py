@@ -18,10 +18,6 @@ class Santander:
     BATCH_TRAILLER = {}
     TOTAL_LINES = 0
     SECOND_LINE = 0
-    SEGMENT_T1_LINE = 0
-    SEGMENT_T2_LINE = 0
-    SEGMENT_U1_LINE = 0
-    SEGMENT_U2_LINE = 0
     FIRST_LINE = 0
     PENULTIMATE_LINE = 0
 
