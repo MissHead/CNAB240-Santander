@@ -33,9 +33,9 @@ class Santander:
         self.PENULTIMATE_LINE = 0
 
     def process(self, file):
-        self.__processa(file)
+        self.__process(file)
 
-    def __processa(self, file):
+    def __process(self, file):
         self.TOTAL_LINES = len(file) - 1
         self.PENULTIMATE_LINE = len(file) - 2
         for line_number, line in list(enumerate(file)):
@@ -139,7 +139,7 @@ class Santander:
             'discount': line[32:47],
             'abatement': line[47:62],
             'iof': line[62:77],
-            'payed_amount': line[77:92],
+            'paid_amount': line[77:92],
             'net_amount': line[92:107],
             'other_amounts': line[107:122],
             'other_credits_amounts': line[122:137],
